@@ -11,3 +11,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+:root {
+    --primary: var(#9792e4);
+    --secondary: var(#0084fd);
+    --tertiary: var(#b5ddff);
+    --free: var(#fac064);
+    --light: var(#ffffff);
+    --dark: var(#333333);
+}
