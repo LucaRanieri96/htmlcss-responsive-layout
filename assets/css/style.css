@@ -198,16 +198,14 @@ section {
     height: 100px;
 }
 
-.row {
-    height: 50rem;
+.debug section,
+.debug .row {
+    height: 40rem;
 }
 
 .debug .container {
     height: 100%;
     border: 2px dashed black;
-}
-.debug section {
-    height: 40rem;
 }
 
 .debug [class^="col_"] {
