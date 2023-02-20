@@ -27,7 +27,8 @@ body {
     width: 100%;
 }
 /* Main */
-.planning{
+.planning,
+.benefits {
     background-color: var(--primary);
 }
 
