@@ -28,7 +28,8 @@ body {
 }
 /* Main */
 .planning,
-.benefits {
+.benefits,
+.call_to_action {
     background-color: var(--primary);
 }
 
