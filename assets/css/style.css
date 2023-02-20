@@ -11,11 +11,35 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
 :root {
-    --primary: var(#9792e4);
-    --secondary: var(#0084fd);
-    --tertiary: var(#b5ddff);
-    --free: var(#fac064);
-    --light: var(#ffffff);
-    --dark: var(#333333);
+    --primary: #9792e4;
+    --secondary: #0084fd;
+    --tertiary: #b5ddff;
+    --free: #fac064;
+    --light: #ffffff;
+    --dark: #333333;
+}
+
+/* Utilities */
+.container {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+}
+/* Header */
+.site_header {
+    background-color: var(--secondary);
+    width: 100%;
+}
+
+/* Media */
+
+/* Debug */
+.debug .site_header {
+    height: 100px;
+}
+.debug .container {
+    height: 100%;
+    border: 2px dashed black;
 }
