@@ -59,7 +59,36 @@ p {
 .whitecard {
     background-color: white;
     border-radius: 3rem;
+    margin: 2rem;
 }
+.purple {
+    font-size: 2rem;
+    color: var(--primary);
+}
+.purplecard {
+    background-color: var(--primary);
+    border-radius: 1rem;
+    padding: 1.5rem 0;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.purplecard img {
+    border-radius: 50%;
+    width: 100%;
+    -webkit-mask-image: radial-gradient(circle at center, black 0, black 49%, transparent 50%);
+    mask-image: radial-gradient(circle at center, rgb(0, 0, 0) 0, black 100%, transparent 100%);
+}
+.purplecard p, 
+.purplecard h4 {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+} 
+    
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -159,6 +188,9 @@ button {
 .text {
     padding: 2rem;
 }
+.margin2rem{
+    margin: 2rem 0;
+}
 
 .col_md_4 .text {
     text-align: center;
@@ -215,7 +247,13 @@ button {
 
 /* Media */
 @media screen and (min-width: 768px) {
-
+    .purplecard {
+        flex-direction: row;
+    }
+    .purplecard p, 
+    .purplecard h4 {
+        text-align: left;
+    } 
     .col_md_1 {
         width: calc(100% / 12 * 1);
     }
