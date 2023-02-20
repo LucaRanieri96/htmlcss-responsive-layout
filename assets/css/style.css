@@ -26,6 +26,10 @@ body {
     background-color: var(--secondary);
     width: 100%;
 }
+/* Main */
+.planning{
+    background-color: var(--primary);
+}
 
 /* Utilities */
 .container {
@@ -35,6 +39,14 @@ body {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+section {
+    margin: 10px 0;
+}
+.d-flex {
     display: flex;
     flex-wrap: wrap;
 }
@@ -193,6 +205,9 @@ body {
 .debug .container {
     height: 100%;
     border: 2px dashed black;
+}
+.debug section {
+    height: 40rem;
 }
 
 .debug [class^="col_"] {
