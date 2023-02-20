@@ -44,14 +44,20 @@ body {
 .container {
     width: 80%;
     max-width: 1152px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
+
+p {
+    line-height: 1.5rem;
+}
+
 .card {
     background-color: var(--tertiary);
     border-radius: 2rem;
-    margin: 1rem 0;
-    line-height: 1.8rem;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +79,7 @@ li {
 }
 
 section {
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .d-flex {
@@ -90,10 +96,10 @@ section {
     padding: 1rem 0;
 }
 
-.space_even {
-    justify-content: space-evenly;
+.col_md_4 i {
+    width: 100%;
+    font-size: 5rem;
 }
-
 .wrap {
     flex-wrap: wrap;
 }
@@ -118,24 +124,31 @@ button {
     border: none;
     border-radius: 1rem;
 }
+
 .button_var {
     background-color: var(--secondary);
     color: white;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     width: 60%;
 }
 
 .col_12 img {
-    width: 100%
+    width: 100%;
 }
 
 .menu {
     color: white;
     font-size: 1.8rem;
 }
-.text{
+
+.text {
     padding: 2rem;
 }
+
+.col_md_4 .text {
+    text-align: center;
+}
+
 .col_1 {
     width: calc(100% / 12 * 1);
 }
