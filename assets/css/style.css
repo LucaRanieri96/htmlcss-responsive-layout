@@ -32,7 +32,11 @@ body {
 .call_to_action {
     background-color: var(--primary);
 }
-
+/* Footer */
+.site_footer {
+    background-color: var(--dark);
+    width: 100%;
+}
 /* Utilities */
 .container {
     width: 80%;
@@ -196,10 +200,10 @@ section {
     }
 }
 /* Debug */
-.debug .site_header {
+.debug .site_header,
+.debug .site_footer {
     height: 100px;
 }
-
 .debug section,
 .debug .row {
     height: 40rem;
