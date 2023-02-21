@@ -20,7 +20,7 @@ body {
     --light: #ffffff;
     --dark: #333333;
 }
-
+img {max-width: 100%;}
 /* Header */
 .site_header {
     background-color: var(--secondary);
@@ -34,17 +34,11 @@ body {
     background-color: var(--primary);
 }
 
-.grid [class^="col_"] {
-    padding: 1rem;
-}
-
 .container,
 .grid {
     width: 80%;
     max-width: 1152px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 section {
@@ -74,12 +68,16 @@ p {
 .card {
     background-color: var(--tertiary);
     border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .whitecard {
     background-color: white;
     border-radius: 3rem;
     margin: 2rem;
+    text-align: center;
 }
 
 .purple {
@@ -215,16 +213,8 @@ button {
     text-align: center;
 }
 
-.text {
-    padding: 2rem;
-}
-
 .margin2rem {
     margin: 2rem 0;
-}
-
-.col_md_4 .text {
-    text-align: center;
 }
 
 .col_1 {
