@@ -96,18 +96,20 @@ section {
 
 .hover img {
     border-radius: 50%;
-    width: 70%;
+    width: 200px;
 
 }
 
 .hover {
+    
     position: relative;
 }
 
 .hover i {
     color: var(--primary);
+    font-size: 10px;
     position: absolute;
-    left: 10rem;
+    right: 0;
 }
 
 .info h3 {
