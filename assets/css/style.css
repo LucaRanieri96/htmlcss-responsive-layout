@@ -33,7 +33,9 @@ img {max-width: 100%;}
 .call_to_action {
     background-color: var(--primary);
 }
-
+.benefits{
+    padding: 2rem 0;
+}
 .container,
 .grid {
     width: 80%;
@@ -52,7 +54,43 @@ section {
     font-size: 1.5rem;
     padding: 1rem;
 }
+.benefits h3 {
+    color: white;
+    font-size: 2rem;
+}
+.benefits h2 {
+    font-size: 4rem;   
+}
+.benefits p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.benefits h2,
+.benefits h4 {
+    color: var(--primary);
+    margin: 1rem 0;
+}
+.info h2 {
+    color: var(--primary);
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.info p{
+    line-height: 2rem;
+    margin: 2rem 0;
+}
 
+.hover img{
+    border-radius: 50%;
+    width: 70%;
+    
+}
+.info .col_md_4 {
+    padding: 2rem;
+}
+.button_pur i {
+    font-size: 3rem;
+}
 /* Footer */
 .site_footer {
     background-color: var(--dark);
@@ -80,6 +118,11 @@ p {
     border-radius: 3rem;
     margin: 2rem;
     text-align: center;
+}
+.whitecard2 {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .purple {
@@ -201,13 +244,21 @@ button {
     padding: 0.5rem;
     width: 60%;
 }
+.button_pur {
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem 2rem;
+    width: 50%;
+
+}
 .col_md_4,
 .col_12 {
     padding: 1rem;
 }
-.col_12 img {
+.grid .row .col_12 img {
     margin-bottom: -3.2rem;
 }
+
 
 .menu {
     color: white;
