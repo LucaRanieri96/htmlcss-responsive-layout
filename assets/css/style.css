@@ -201,7 +201,7 @@ button {
 }
 
 .col_12 img {
-    width: 100%;
+    margin-bottom: -1.2rem;
 }
 
 .menu {
