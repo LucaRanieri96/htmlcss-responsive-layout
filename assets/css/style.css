@@ -24,6 +24,15 @@ body {
 img {
     max-width: 100%;
 }
+li:hover,
+button:hover {
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0px 0px 8px #db2bc1;
+    
+}
+
 
 /* Header */
 .site_header {
