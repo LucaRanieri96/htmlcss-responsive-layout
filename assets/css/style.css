@@ -93,6 +93,9 @@ section {
     line-height: 2rem;
     margin: 2rem 0;
 }
+.info .col_md_4 {
+    padding: 2rem;
+}
 
 .hover img {
     border-radius: 50%;
@@ -194,7 +197,6 @@ p {
 .whitecard {
     background-color: white;
     border-radius: 3rem;
-    margin: 2rem;
     text-align: center;
 }
 
@@ -467,6 +469,12 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+    
+    .whitecard {
+        margin-top: 8rem;
+        margin-right: 6rem;
+        scale: 80%;  
+    }
 
     .display_none {
         display: block;
