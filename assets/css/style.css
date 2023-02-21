@@ -48,9 +48,11 @@ img {
     max-width: 1152px;
     margin: auto;
 }
-
+.grid {
+    margin-top: 2rem;
+}
 section {
-    margin: 1rem 0;
+    margin: 2rem 0 0 0;
 }
 
 .fa-arrow-down {
@@ -151,12 +153,22 @@ section {
     color: var(--free);
     font-size: 3rem;
 }
-
+.cta .container {
+    width: 100%;
+}
 /* Footer */
 .site_footer {
     background-color: var(--dark);
     width: 100%;
+    text-align: center;
+    color: white;
 }
+.site_footer p {
+    padding: 2rem 0;
+}
+.site_footer .container{
+    width: 90%;
+}   
 
 /* Utilities */
 
@@ -398,7 +410,10 @@ button {
     .purplecard h4 {
         text-align: left;
     }
-
+    .cta .container,
+    .site_footer .container{
+        width: 50%;
+    }  
     .col_md_1 {
         width: calc(100% / 12 * 1);
     }
