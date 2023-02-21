@@ -51,6 +51,14 @@ section {
     margin: 1rem 0;
 }
 
+.fa-arrow-down {
+    aspect-ratio: 1 / 1;
+    background-color: var(--primary);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
 /* Footer */
 .site_footer {
     background-color: var(--dark);
@@ -329,7 +337,7 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
-
+    
     .display_none {
         display: block;
     }
