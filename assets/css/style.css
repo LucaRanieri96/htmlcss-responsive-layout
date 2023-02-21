@@ -121,7 +121,7 @@ section {
     font-size: 1.5rem;
 }
 
-.info .button_pur i {
+.info .button_link i {
     font-size: 1.5rem;
 }
 
@@ -312,7 +312,7 @@ p.padding1rem {
 
 button {
     width: 6rem;
-    margin: 1.2rem 0;
+    margin: 1rem 0;
     background-color: white;
     border: none;
     border-radius: 1rem;
@@ -329,8 +329,13 @@ button {
     background-color: var(--primary);
     color: white;
     padding: 0.5rem 0;
-    width: 70%;
-
+    width: 50%;
+}
+.button_link {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 0;
+    width: 90%;
 }
 
 .col_md_4,
@@ -470,6 +475,7 @@ button {
 
 @media screen and (min-width: 1200px) {
     
+
     .whitecard {
         margin-top: 8rem;
         margin-right: 6rem;
